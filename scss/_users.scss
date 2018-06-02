@@ -1,0 +1,17 @@
+.item-divider {
+    background-color: rgba(25, 118, 210, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.move {
+    padding: $padding;
+    text-align: center;
+    .button {
+        width: 100%;
+    }
+    .button-clear {
+        pointer-events: none !important;
+        color: rgba(0, 0, 0, 1) !important;
+        cursor: default !important;
+    }
+}

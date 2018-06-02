@@ -1,0 +1,21 @@
+.login {
+    background-image: url("/img/symphony.png");
+    background-repeat: repeat;
+}
+
+.item-body {
+    text-align: center;
+    border: $border-black;
+    border-radius: 5px !important;
+}
+
+.item-input {
+    padding: 10px !important;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}

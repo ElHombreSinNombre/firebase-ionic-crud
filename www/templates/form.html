@@ -1,0 +1,57 @@
+<ion-view view-title="{{title}}">
+  <ion-content class="background center">
+    <div class="row">
+      <div class="col col-33 col-offset-33">
+        <div class="item item-body">
+          <i class="{{icon}}"></i>
+          <form ng-submit="submit()">
+            <div class="item item-divider">User</div>
+            <label class="item item-input">
+            <input type="text" placeholder="Name" ng-model="user.name">
+          </label>
+            <label class="item item-input">
+            <input type="text" placeholder="Phone" ng-model="user.phone">
+          </label>
+            <label class="item item-input">
+            <input type="text" placeholder="Email" ng-model="user.email">
+          </label>
+            <label class="item item-input">
+            <input type="text" placeholder="Username" ng-model="user.username">
+          </label>
+            <div class="item item-divider">Location</div>
+            <label class="item item-input">
+            <input type="text" placeholder="City" ng-model="user.city">
+          </label>
+            <div class="item range">
+              <i class="ion-ios-location"></i>
+              <input type="range" ng-model="user.lat" step="0.1">
+              <div ng-show="!user.lat">Latitude</div>
+              <div ng-show="user.lat">Latitude <b>{{user.lat}}º</b></div>
+            </div>
+            <div class="item range">
+              <i class="ion-ios-location"></i>
+              <input type="range" ng-model="user.lng" step="0.1">
+              <div ng-show="!user.lng">Longitude</div>
+              <div ng-show="user.lng">Longitude <b>{{user.lng}}º</b></div>
+            </div>
+            <div class="item item-divider">Address</div>
+            <label class="item item-input">
+            <input type="text" placeholder="Street" ng-model="user.street">
+          </label>
+            <label class="item item-input">
+            <input type="text" placeholder="Suite" ng-model="user.suite">
+          </label>
+            <div class="item item-divider">Other</div>
+            <label class="item item-input">
+            <input type="text" placeholder="Website" ng-model="user.website">
+          </label>
+            <label class="item item-input">
+            <input type="text" placeholder="Zipcode" ng-model="user.zipcode">
+          </label>
+            <button class="button button-full button-positive">{{button}}</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

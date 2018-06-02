@@ -1,0 +1,77 @@
+.login {
+  background-image: url("/img/symphony.png");
+  background-repeat: repeat; }
+
+.item-body, .popup {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px !important; }
+
+.item-input {
+  padding: 10px !important; }
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+
+.background {
+  background-image: url("/img/sayagata.png");
+  background-repeat: repeat; }
+
+.popup-head {
+  padding-bottom: 0px !important; }
+
+.popup {
+  width: 25% !important; }
+
+.ion-close-circled {
+  color: #d32f2f; }
+
+.ion-checkmark-circled {
+  color: #2e7d32; }
+
+.ion-information-circled {
+  color: #1976d2; }
+
+.ion-edit,
+.ion-trash-a {
+  padding: 0.5em;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: black; }
+
+.icons, .ion-close-circled, .ion-checkmark-circled, .ion-information-circled, .max {
+  font-size: 5em;
+  -webkit-text-stroke: 1px black; }
+
+.max {
+  text-align: center; }
+
+.ion-person-stalker {
+  color: black;
+  font-size: 10em;
+  text-align: center; }
+
+.button, .button.button-positive, .popup-buttons .button {
+  padding: 0.5em;
+  border: 1px solid black; }
+
+.popup-buttons .button {
+  color: white;
+  background-color: #1976d2; }
+
+.item-divider {
+  background-color: #1976d2;
+  color: white; }
+
+.move {
+  padding: 0.5em;
+  text-align: center; }
+  .move .button {
+    width: 100%; }
+  .move .button-clear {
+    pointer-events: none !important;
+    color: black !important;
+    cursor: default !important; }

@@ -1,0 +1,16 @@
+.button {
+    padding: $padding;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.button.button-positive {
+    @extend .button;
+}
+
+.popup-buttons {
+    .button {
+        @extend .button;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(25, 118, 210, 1);
+    }
+}

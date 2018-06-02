@@ -1,0 +1,23 @@
+.popup-head {
+    padding-bottom: 0px !important;
+}
+
+.popup {
+    @extend .item-body;
+    width: 25% !important;
+}
+
+.ion-close-circled {
+    @extend .icons;
+    color: rgba(211, 47, 47, 1);
+}
+
+.ion-checkmark-circled {
+    @extend .icons;
+    color: rgba(46, 125, 50, 1);
+}
+
+.ion-information-circled {
+    @extend .icons;
+    color: rgba(25, 118, 210, 1);
+}
